@@ -1,12 +1,18 @@
-
+import Header from "./components/Header";
+import RightColumn from "./components/rightColumn";
+import LeftColumn from "./components/leftColumn";
+import DynamicColumn from "./components/dynamicCoiumn";
 
 const App = () => {
   return (
-    <div>
-      <header className={'bg-black text-[#820041]'}>
-        hello
-      </header>
-    </div>
+    <>
+        <Header />
+        <div className='flex pt-main-span min-h-[100vh]'>
+            <LeftColumn />
+            <DynamicColumn />
+            <RightColumn />
+        </div>
+    </>
   );
 }
 

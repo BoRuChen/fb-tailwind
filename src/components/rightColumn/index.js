@@ -1,11 +1,11 @@
 
 
-const DynamicColumn = () =>{
+const RightColumn = () =>{
     return(
-        <div className="w-full h-[56px] fixed top-0 left-0 right-0 bg-fb-header">
-            1
+        <div className="hidden w-full h-full sticky top-main-span max-w-[360px] lg:block">
+            <p className='w-full bg-red-300'>右側聯絡人</p>
         </div>
     )
 }
 
-export default DynamicColumn;
+export default RightColumn;
