@@ -7,7 +7,7 @@ import Setting from "../messageWindow/setting";
 import Notify from "../messageWindow/notify";
 
 const Header = () => {
-    const [messageWindow,setMessageWindow] = useState(true);
+    const [messageWindow,setMessageWindow] = useState(false);
     const [messageSwitch,setMessageSwitch] = useState(0);
 
     const switchMessage = () => {

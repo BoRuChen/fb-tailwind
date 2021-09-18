@@ -4,7 +4,7 @@ const Establish = () => {
     return (
         <>
             <p className='text-4xl text-white'>建立</p>
-            <div className='flex w-full mt-2 p-2 items-center'>
+            <div className='flex w-full mt-2 p-2 items-center hover:bg-fb-popover cursor-pointer'>
                 <div className='bg-fb-input rounded-full w-[40px] h-[40px] flex items-center justify-center'>
                     <Note />
                 </div>
