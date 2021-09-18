@@ -9,8 +9,8 @@ export const FbLogo = (props) => {
                 y1="97.0782153%"
                 y2="0%"
             >
-                <stop offset="0%" stop-color="#0062E0"></stop>
-                <stop offset="100%" stop-color="#19AFFF"></stop>
+                <stop offset="0%" stopColor="#0062E0"></stop>
+                <stop offset="100%" stopColor="#19AFFF"></stop>
             </linearGradient>
         </defs>
         <path
@@ -38,4 +38,42 @@ export const search = (props) => {
             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
         />
     </svg>
+}
+
+export const Note = (props) => {
+    return(<svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        width="22"
+        height="22"
+        viewBox="0 0 24 24"
+        stroke="white"
+    >
+        <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+        />
+    </svg>)
+}
+
+export const Logout = () => {
+    return(
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            stroke="white"
+        >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
+            />
+        </svg>
+    )
 }
