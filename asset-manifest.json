@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/fb-tailwind/static/css/main.0e096d6b.chunk.css",
+    "main.js": "/fb-tailwind/static/js/main.9243a555.chunk.js",
+    "main.js.map": "/fb-tailwind/static/js/main.9243a555.chunk.js.map",
+    "runtime-main.js": "/fb-tailwind/static/js/runtime-main.5670b034.js",
+    "runtime-main.js.map": "/fb-tailwind/static/js/runtime-main.5670b034.js.map",
+    "static/js/2.d2dfff15.chunk.js": "/fb-tailwind/static/js/2.d2dfff15.chunk.js",
+    "static/js/2.d2dfff15.chunk.js.map": "/fb-tailwind/static/js/2.d2dfff15.chunk.js.map",
+    "index.html": "/fb-tailwind/index.html",
+    "static/css/main.0e096d6b.chunk.css.map": "/fb-tailwind/static/css/main.0e096d6b.chunk.css.map",
+    "static/js/2.d2dfff15.chunk.js.LICENSE.txt": "/fb-tailwind/static/js/2.d2dfff15.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5670b034.js",
+    "static/js/2.d2dfff15.chunk.js",
+    "static/css/main.0e096d6b.chunk.css",
+    "static/js/main.9243a555.chunk.js"
+  ]
+}
