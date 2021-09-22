@@ -1,4 +1,4 @@
-import {FbLogo, Note} from "../icons";
+
 
 const Message = () => {
     return (

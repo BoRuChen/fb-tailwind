@@ -1,4 +1,3 @@
-import {Note} from "../icons";
 
 const Notify = () => {
     return (

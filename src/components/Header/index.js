@@ -1,5 +1,5 @@
 import {FbLogo} from "../icons";
-import MessageWindow from "../messageWindow";
+import MessageWindow, {BackClick} from "../messageWindow";
 import {useState} from "react";
 import Establish from "../messageWindow/establish";
 import Message from "../messageWindow/message";
@@ -81,6 +81,7 @@ const Header = () => {
                         <img src={'https://bruce-fe-fb.web.app/image/down.svg'} alt={'down'}/>
                     </button>
                 </div>
+                {messageWindow && <BackClick setMessageWindow={setMessageWindow} />}
             </header>
             {showMessageWindow()}
         </>

@@ -68,3 +68,102 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+仿Facebook圖片資源
+tags: Tailwind CSS 開發秘技｜輕鬆打造仿 Facebook UI
+一般圖片
+
+1<img width="50px" src='https://bruce-fe-fb.web.app/image/right-arrow.svg' />
+
+2
+<img width="50px" src='https://bruce-fe-fb.web.app/image/left-arrow.svg' />
+
+3
+<img width="50px" src='https://bruce-fe-fb.web.app/image/search.svg' />
+
+4
+<img width="50px" src='https://bruce-fe-fb.web.app/image/plus.svg' />
+
+5
+<img width="50px" src='https://bruce-fe-fb.web.app/image/messenger.svg' />
+
+6
+<img width="50px" src='https://bruce-fe-fb.web.app/image/bell.svg' />
+
+7
+<img width="50px" src='https://bruce-fe-fb.web.app/image/down.svg' />
+
+8
+<img width="50px" src='https://bruce-fe-fb.web.app/image/avator.png' />
+
+9
+<img width="50px" src='https://bruce-fe-fb.web.app/image/left/activity.svg' />
+
+10
+<img width="50px" src='https://bruce-fe-fb.web.app/image/left/cloudy.png' />
+
+11
+<img width="50px" src='https://bruce-fe-fb.web.app/image/left/dynamic.svg' />
+
+12
+<img width="50px" src='https://bruce-fe-fb.web.app/image/left/facemask.svg' />
+
+13
+<img width="50px" src='https://bruce-fe-fb.web.app/image/left/friend.svg' />
+
+14
+<img width="50px" src='https://bruce-fe-fb.web.app/image/left/job.png' />
+
+15
+<img width="50px" src='https://bruce-fe-fb.web.app/image/left/messenger.svg' />
+
+16
+<img width="50px" src='https://bruce-fe-fb.web.app/image/left/pay.png' />
+
+17
+<img width="50px" src='https://bruce-fe-fb.web.app/image/left/sale.png' />
+
+18
+<img width="50px" src='https://bruce-fe-fb.web.app/image/left/star.svg' />
+
+19
+<img width="50px" src='https://bruce-fe-fb.web.app/image/left/store.svg' />
+
+20
+<img width="50px" src='https://bruce-fe-fb.web.app/image/left/watchingTv.svg' />
+
+21
+<img width="50px" src='https://bruce-fe-fb.web.app/image/camera.svg' />
+
+22
+<img width="50px" src='https://bruce-fe-fb.web.app/image/photo.svg' />
+
+23
+<img width="50px" src='https://bruce-fe-fb.web.app/image/feel.svg' />
+
+24
+<img width="50px" src='https://bruce-fe-fb.web.app/image/video.svg' />
+
+25
+<img width="50px" src='https://bruce-fe-fb.web.app/image/earth.svg' />
+
+26
+<img width="50px" src='https://bruce-fe-fb.web.app/image/more.svg' />
+
+27
+<img width="50px" src='https://bruce-fe-fb.web.app/image/item.png' />
+
+28
+<img width="50px" src='https://bruce-fe-fb.web.app/image/like-blue.svg' />
+
+29
+<img width="50px" src='https://bruce-fe-fb.web.app/image/like.svg' />
+
+30
+<img width="50px" src='https://bruce-fe-fb.web.app/image/chat.svg' />
+
+31
+<img width="50px" src='https://bruce-fe-fb.web.app/image/share.svg' />
+
+32
+<img width="50px" src='https://bruce-fe-fb.web.app/image/story.png' />
