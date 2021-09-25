@@ -61,8 +61,8 @@ const LeftColumn = () =>{
     return(
         <div className="hidden max-w-[360px] sticky top-main-span w-full h-full lg:block">
             {
-                items.map((item)=>{
-                    return <LeftItem name={item.name} url={item.url} key={item.name} ture={item.name==='布魯斯'} />
+                items.map((item,index)=>{
+                    return <LeftItem name={item.name} url={item.url} key={index} ture={item.name==='布魯斯'} />
                 })
             }
         </div>
