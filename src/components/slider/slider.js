@@ -1,16 +1,22 @@
-import {useRef,useEffect,useState} from "react";
+import {useRef,useEffect,useState,Children} from "react";
 import Context from "./context";
 
 const Slider = (props) => {
     const sliderRef = useRef(null);
     const itemRef = useRef(null);
-    const [itemWidth,setItemWidth] = useState(0)
+    const [sliderRefWidth,setSliderRefWidth] = useState(0)
+    const [itemRefWidth,setItemRefWidth] = useState(0)
+    const [itemCount,setItemCount] = useState(0)
     const [itemNumber,setItemNumber] = useState(0)
+    const [viewCount,setViewCount] = useState(0)
 
     useEffect(() => {
-        setItemWidth(itemRef.current.clientWidth);
+        setSliderRefWidth(sliderRef.current.clientWidth)
+        setItemRefWidth(itemRef.current.clientWidth)
+
         const changWidth = () => {
-            setItemWidth(itemRef.current.clientWidth)
+            setSliderRefWidth(sliderRef.current.clientWidth)
+            setItemRefWidth(itemRef.current.clientWidth)
         }
 
         window.addEventListener('resize',changWidth)
@@ -23,28 +29,35 @@ const Slider = (props) => {
     const contextValue={
         sliderRef,
         itemRef,
-        itemWidth
     }
 
     const rightClick = () => {
         setItemNumber(itemNumber + 1)
-        console.log(itemNumber)
     }
 
     const leftClick = () => {
         setItemNumber(itemNumber - 1)
-        console.log(itemNumber)
     }
+
+    useEffect(() => {
+        setItemCount(Children.count(props.children))
+    },[props.children])
+
+    useEffect(() => {
+        setViewCount(Math.floor(sliderRefWidth / itemRefWidth))
+    },[sliderRefWidth,itemRefWidth])
+
 
     return(
         <Context.Provider value={contextValue}>
-            <div ref={sliderRef} className={`w-full overflow-x-hidden relative`}>
-                <div className={`flex`} style={ { transform: `translate3d(-${(itemWidth+5)*itemNumber}px, 0, 0)`}}>
+            <div ref={sliderRef} className={`w-full overflow-x-hidden relative `}>
+                <div className={`flex transform duration-300`} style={ { transform: `translate3d(-${(itemRefWidth+5)*itemNumber}px, 0, 0)`}}>
                     {props.children}
                 </div>
-                {itemNumber > 0 && <button className={`absolute w-[50px] h-[50px] bg-pink-300 left-0 top-[calc(50%-25px)]`}
-                         onClick={leftClick}/>}
-                <button className={`absolute w-[50px] h-[50px] bg-pink-300 right-0 top-[calc(50%-25px)]`} onClick={rightClick} />
+                {itemNumber > 0 && <button className={`absolute rounded-full w-[50px] h-[50px] bg-gray-700/20 left-0 top-[calc(50%-25px)]`}
+                                           onClick={leftClick}>&lt;</button>}
+                {((itemNumber + viewCount) < itemCount) && <button className={`absolute rounded-full w-[50px] h-[50px] bg-gray-700/20 right-0 top-[calc(50%-25px)]`}
+                                                                   onClick={rightClick}>&gt;</button>}
             </div>
         </Context.Provider>
     )
