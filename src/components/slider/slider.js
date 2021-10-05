@@ -12,11 +12,14 @@ const Slider = (props) => {
 
     useEffect(() => {
         setSliderRefWidth(sliderRef.current.clientWidth)
-        setItemRefWidth(itemRef.current.clientWidth)
-
+        if(itemRef!=null){
+            setItemRefWidth(itemRef.current.clientWidth)
+        }
         const changWidth = () => {
             setSliderRefWidth(sliderRef.current.clientWidth)
-            setItemRefWidth(itemRef.current.clientWidth)
+            if(itemRef!=null){
+                setItemRefWidth(itemRef.current.clientWidth)
+            }
         }
 
         window.addEventListener('resize',changWidth)
@@ -51,7 +54,7 @@ const Slider = (props) => {
     return(
         <Context.Provider value={contextValue}>
             <div ref={sliderRef} className={`w-full overflow-x-hidden relative `}>
-                <div className={`flex transform duration-300`} style={ { transform: `translate3d(-${(itemRefWidth+5)*itemNumber}px, 0, 0)`}}>
+                <div className={`flex transform duration-300 h-[250px] items-center p-2`} style={ { transform: `translate3d(-${(itemRefWidth+5)*itemNumber}px, 0, 0)`}}>
                     {props.children}
                 </div>
                 {itemNumber > 0 && <button className={`absolute rounded-full w-[50px] h-[50px] bg-gray-700/20 left-0 top-[calc(50%-25px)]`}

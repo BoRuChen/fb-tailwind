@@ -38,8 +38,9 @@ const Items = [
 
 const DynamicColumn = () =>{
     return(
-        <div className="w-full max-w-[744px] mx-auto h-[300vh]">
+        <div className="w-full max-w-[744px] mx-auto">
             <Slider>
+                <Slider.Init />
                 {
                     Items.map((item)=>{
                         return <Slider.Item key={item.id}> {item.name} </Slider.Item>
