@@ -54,12 +54,12 @@ const Slider = (props) => {
     return(
         <Context.Provider value={contextValue}>
             <div ref={sliderRef} className={`w-full overflow-x-hidden relative `}>
-                <div className={`flex transform duration-300 h-[250px] items-center p-2`} style={ { transform: `translate3d(-${(itemRefWidth+5)*itemNumber}px, 0, 0)`}}>
+                <div className={`flex duration-300 h-[250px] items-center p-2 `} style={ { transform: `translate3d(-${(itemRefWidth+5)*itemNumber}px, 0, 0)`}}>
                     {props.children}
                 </div>
-                {itemNumber > 0 && <button className={`absolute rounded-full w-[50px] h-[50px] bg-gray-700/20 left-0 top-[calc(50%-25px)]`}
+                {itemNumber > 0 && <button className={`absolute rounded-full w-[50px] h-[50px] bg-gray-400/70 left-0 top-[calc(50%-25px)] hover:bg-gray-400`}
                                            onClick={leftClick}>&lt;</button>}
-                {((itemNumber + viewCount) < itemCount) && <button className={`absolute rounded-full w-[50px] h-[50px] bg-gray-700/20 right-0 top-[calc(50%-25px)]`}
+                {((itemNumber + viewCount) < itemCount) && <button className={`absolute rounded-full w-[50px] h-[50px] bg-gray-400/70 right-0 top-[calc(50%-25px)] hover:bg-gray-400`}
                                                                    onClick={rightClick}>&gt;</button>}
             </div>
         </Context.Provider>
