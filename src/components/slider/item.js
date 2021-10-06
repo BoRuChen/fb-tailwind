@@ -21,6 +21,12 @@ const Item = (props) => {
                         </div>
                     </div>)
                 }
+                else if (props.guys){
+                    return (<div ref={itemRef} className={`flex-1 relative mr-[5px] p-1`}>
+                        <img className={`min-w-[30px] h-[30px] rounded-full`} src={'https://bruce-fe-fb.web.app/image/avator.png'} alt={''} />
+                        <div className={`w-[5px] h-[5px] absolute right-[5px] bottom-[5px] rounded-full bg-green-500 ring-2 ring-fb-card`} />
+                    </div>)
+                }
                 else {
                     return(<div ref={itemRef} className={`flex-1 rounded-xl min-w-[140px] max-h-[200px] ml-[5px] h-[200px] relative overflow-hidden cursor-pointer group`}>
                         <div className={`absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/30 to-transparent`} />
