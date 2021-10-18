@@ -1,4 +1,5 @@
 import Context from "./context";
+import Food from '../../img/S__4194357.jpg';
 
 const Item = (props) => {
 
@@ -30,9 +31,9 @@ const Item = (props) => {
                 else {
                     return(<div ref={itemRef} className={`flex-1 rounded-xl min-w-[140px] max-h-[200px] ml-[5px] h-[200px] relative overflow-hidden cursor-pointer group`}>
                         <div className={`absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/30 to-transparent`} />
-                        <div className={`absolute top-[10px] left-[10px] z-10 w-[40px] h-[40px] rounded-full ring-4 ring-fb text-gray-400 bg-fb-bg font-medium flex items-center justify-center text-sm`} >布</div>
-                        <p className={`absolute bottom-2 left-2 z-10 text-gray-400`}>布魯斯</p>
-                        <img className={`w-full h-full duration-500 group-hover:scale-125`} src={'https://bruce-fe-fb.web.app/image/story.png'} alt={'img'}  />
+                        <div className={`absolute top-[10px] left-[10px] z-10 w-[40px] h-[40px] rounded-full ring-4 ring-fb text-gray-400 bg-fb-bg font-medium flex items-center justify-center text-sm`} >Bo</div>
+                        <p className={`absolute bottom-2 left-2 z-10 text-gray-400`}>Boru</p>
+                        <img className={`w-full h-full duration-500 group-hover:scale-125`} src={Food} alt={'img'}  />
                     </div>)
                 }
             }}

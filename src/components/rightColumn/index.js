@@ -2,7 +2,7 @@ import RightItems from "../rightItems";
 
 const items = [
         {
-            name : '布魯斯',
+            name : 'Boru',
             url:'https://bruce-fe-fb.web.app/image/avator.png'
         },
         {
@@ -14,27 +14,27 @@ const items = [
             url:'https://bruce-fe-fb.web.app/image/avator.png'
         },
         {
-            name : '布魯斯',
+            name : 'Boru',
             url:'https://bruce-fe-fb.web.app/image/avator.png'
         },
         {
-            name : '布魯斯',
+            name : 'Boru',
             url:'https://bruce-fe-fb.web.app/image/avator.png'
         },
         {
-            name : '布魯斯',
+            name : 'Boru',
             url:'https://bruce-fe-fb.web.app/image/avator.png'
         },
         {
-            name : '布魯斯',
+            name : 'Boru',
             url:'https://bruce-fe-fb.web.app/image/avator.png'
         },
         {
-            name : '布魯斯',
+            name : 'Boru',
             url:'https://bruce-fe-fb.web.app/image/avator.png'
         },
         {
-            name : '布魯斯',
+            name : 'Boru',
             url:'https://bruce-fe-fb.web.app/image/avator.png'
         },
     ]

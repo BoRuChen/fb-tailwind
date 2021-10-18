@@ -4,7 +4,7 @@ import LeftItem from "../leftItem";
 const LeftColumn = () =>{
     const items = [
         {
-            name : '布魯斯',
+            name : 'Boru',
             url:'https://bruce-fe-fb.web.app/image/avator.png'
         },
         {
@@ -62,7 +62,7 @@ const LeftColumn = () =>{
         <div className="hidden max-w-[360px] sticky top-main-span w-full h-full lg:block">
             {
                 items.map((item,index)=>{
-                    return <LeftItem name={item.name} url={item.url} key={index} ture={item.name==='布魯斯'} />
+                    return <LeftItem name={item.name} url={item.url} key={index} ture={item.name==='Boru'} />
                 })
             }
         </div>

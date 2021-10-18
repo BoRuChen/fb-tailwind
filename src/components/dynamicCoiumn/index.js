@@ -72,7 +72,7 @@ const DynamicColumn = () =>{
             <div className={`mt-2 bg-fb-card w-full`}>
                 <div className={`mt-1 w-full px-3 flex py-5`}>
                     <img className={`rounded-full w=[25px] h-[25px]`} src={'https://bruce-fe-fb.web.app/image/avator.png'} alt={''}/>
-                    <input className={`w-full bg-fb-input rounded-full ml-3 focus:outline-none px-3`} placeholder={'布魯斯，在想什麼?'} />
+                    <input className={`w-full bg-fb-input rounded-full ml-3 focus:outline-none px-3`} placeholder={'Boru，在想什麼?'} />
                 </div>
                 <div className={`w-[95%] h-0.5 bg-gray-400 mx-auto`} />
                 <div className={`mt-1 w-full px-3 py-1 flex`}>

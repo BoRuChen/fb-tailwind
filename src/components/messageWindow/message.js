@@ -17,7 +17,7 @@ const Message = () => {
                 <img src={'https://bruce-fe-fb.web.app/image/avator.png'} alt={'avator'}
                      className='h-[40px] w-[40px] rounded-full'/>
                 <div className='flex-1 ml-2'>
-                    <p className='text-white text-xl'>布魯斯</p>
+                    <p className='text-white text-xl'>Boru</p>
                     <p className='text-gray-400'>Tailwind讚讚!．1分鐘前。</p>
                 </div>
             </div>

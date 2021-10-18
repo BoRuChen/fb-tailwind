@@ -7,7 +7,7 @@ const Notify = () => {
                 <img src={'https://bruce-fe-fb.web.app/image/avator.png'} alt={'avator'}
                      className='h-[40px] w-[40px] rounded-full'/>
                 <div className='flex-1 ml-2'>
-                    <p className='text-white'>布魯斯發佈了一門新課程！</p>
+                    <p className='text-white'>Boru發佈了一門新課程！</p>
                     <p className='text-blue-700'>1分鐘前</p>
                 </div>
             </div>

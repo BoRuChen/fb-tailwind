@@ -9,7 +9,7 @@ const PostWindow = () => {
             <div className={`flex p-4 items-center`}>
                 <img className={`w-[40px] h-[40px] rounded-full`} src={'https://bruce-fe-fb.web.app/image/avator.png'} alt={``} />
                 <div className={`text-gray-400 ml-3 flex-1`}>
-                    <p className={`text-white`}>布魯斯</p>
+                    <p className={`text-white`}>Boru</p>
                     <p className={`flex text-xs`}>5小時。<img className={`w-4 h-4 bg-fb-active`} src={'https://bruce-fe-fb.web.app/image/earth.svg'} alt={''}/></p>
                 </div>
                 <img className={`w-[10px] h-[10px] rounded-full`} src={'https://bruce-fe-fb.web.app/image/more.svg'} alt={``} />
@@ -19,7 +19,7 @@ const PostWindow = () => {
 
             <div className={`w-full bg-gray-400/40 text-white`}>
                 <p className={`ml-3 text-xs`}>www.brucefe.com</p>
-                <p className={`ml-6`}>[布魯斯] 手工蛋糕</p>
+                <p className={`ml-6`}>[Boru] 手工蛋糕</p>
             </div>
 
             <div className={`w-full text-gray-400 flex flex-col`}>

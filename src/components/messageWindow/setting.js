@@ -7,7 +7,7 @@ const Setting = () => {
                 <img src={'https://bruce-fe-fb.web.app/image/avator.png'} alt={'avator'}
                      className='h-[40px] w-[40px] rounded-full'/>
                 <div className='flex-1 ml-2'>
-                    <p className='text-white'>布魯斯</p>
+                    <p className='text-white'>Boru</p>
                     <p className='text-gray-600'>查看你的個人檔案</p>
                 </div>
             </div>
