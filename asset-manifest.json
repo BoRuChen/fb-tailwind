@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/fb-tailwind/static/css/main.013ceafe.chunk.css",
-    "main.js": "/fb-tailwind/static/js/main.f7241b37.chunk.js",
-    "main.js.map": "/fb-tailwind/static/js/main.f7241b37.chunk.js.map",
+    "main.js": "/fb-tailwind/static/js/main.ba25191b.chunk.js",
+    "main.js.map": "/fb-tailwind/static/js/main.ba25191b.chunk.js.map",
     "runtime-main.js": "/fb-tailwind/static/js/runtime-main.5670b034.js",
     "runtime-main.js.map": "/fb-tailwind/static/js/runtime-main.5670b034.js.map",
     "static/js/2.43d9adfb.chunk.js": "/fb-tailwind/static/js/2.43d9adfb.chunk.js",
     "static/js/2.43d9adfb.chunk.js.map": "/fb-tailwind/static/js/2.43d9adfb.chunk.js.map",
     "index.html": "/fb-tailwind/index.html",
     "static/css/main.013ceafe.chunk.css.map": "/fb-tailwind/static/css/main.013ceafe.chunk.css.map",
-    "static/js/2.43d9adfb.chunk.js.LICENSE.txt": "/fb-tailwind/static/js/2.43d9adfb.chunk.js.LICENSE.txt"
+    "static/js/2.43d9adfb.chunk.js.LICENSE.txt": "/fb-tailwind/static/js/2.43d9adfb.chunk.js.LICENSE.txt",
+    "static/media/S__4194357.62880d4b.jpg": "/fb-tailwind/static/media/S__4194357.62880d4b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5670b034.js",
     "static/js/2.43d9adfb.chunk.js",
     "static/css/main.013ceafe.chunk.css",
-    "static/js/main.f7241b37.chunk.js"
+    "static/js/main.ba25191b.chunk.js"
   ]
 }
